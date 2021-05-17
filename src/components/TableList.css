@@ -1,0 +1,8 @@
+.contactsList{
+    max-height: 90vh;
+    overflow-y:auto;
+    padding-top: 65px;
+}
+th{
+    background-color:#cbc0d3;
+}

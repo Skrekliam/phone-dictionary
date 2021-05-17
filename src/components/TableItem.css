@@ -1,0 +1,39 @@
+tr:nth-child(even){
+    background-color: #afbed6;
+}
+tr:hover{
+    background-color: #dee2ff;
+    transition: .1s ease;
+
+}
+.notstar{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.selectedTd{
+    opacity: 0;
+}
+
+.selectedRow:hover>.selectedTd{
+    opacity: 1;
+    transition: .5s ease;
+
+}
+input{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    
+}
+.edit{
+    background-color: #feeafa;
+}
+
+.star{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 17px;
+}
+.delete:hover{
+    cursor: pointer;
+}

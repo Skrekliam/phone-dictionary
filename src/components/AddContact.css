@@ -1,0 +1,18 @@
+.addContact {
+  padding: 0;
+  background-color: #cbc0d3;
+  border-radius: 12px;
+  margin: 0;
+}
+.addContact h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  margin: 25px;
+}
+.subBtn {
+  width: 100%;
+  margin: 25px;
+}
